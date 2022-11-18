@@ -19,7 +19,7 @@ LOG = logging.getLogger(__name__)
 #if ENV:
 API_ID=int(os.environ.get("API_ID","16191628"))
 API_HASH=str(os.environ.get("API_HASH","7d5acccaf1df4f5b7a690b203fd1953e"))
-TOKEN=str(os.environ.get("TOKEN","5651385902:AAFwigsgZLEETFCXutMjLyfMNgwuaUjMTIU"))
+TOKEN=str(os.environ.get("TOKEN","5856070290:AAHi_fH5fu8pZX8fXvMazhMWqtNu7TFIdAs"))
     
 
   
