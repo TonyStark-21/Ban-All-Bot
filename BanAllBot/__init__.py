@@ -2,7 +2,7 @@ import os
 import logging 
 from pyrogram import Client
 from pyromod import listen
-from config import Config
+
 
 # enable logging
 logging.basicConfig(
