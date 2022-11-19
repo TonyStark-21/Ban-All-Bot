@@ -6,7 +6,7 @@
 
 
 <h2 align="center">
-    ──「 ᴇxᴏɴ   ʀᴏʙᴏᴛ 」──
+    ──「 BAN-ALL BOT 」──
 </h2>
 
 
