@@ -1,4 +1,4 @@
-Frome BanAllBot import app,BOT_ID
+from BanAllBot import app,BOT_ID
 from pyrogram import filters,enums
 
 
