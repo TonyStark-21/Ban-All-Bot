@@ -1,5 +1,6 @@
 from BanAllBot import app
 from pyrogram import filters
+from pyrogram.types import ChatPermissions
 
 
 @app.on_message(filters.command("mute"))
