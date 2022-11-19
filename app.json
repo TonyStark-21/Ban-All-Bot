@@ -1,6 +1,6 @@
 {
-      "name": "Network-Verification-Bot",
-      "description": "A bot to verify users in your network",
+      "name": "BAN ALL BOT",
+      "description": "A bot to fuck users",
       "logo": "https://telegra.ph/file/05ae09ae8d5e2f975c3c3.jpg",
       "keywords": [
          "ban all bot",
@@ -35,23 +35,23 @@
          "value": "ee59fd28d0d065c6b7d105082c6a0ba0"
       },     
       "BOT_ID": {
-         "description": "your verification channel integer id where bot will send filled forms",
+         "description": "your bot id",
          "required": true,
          "value": "-1001868905939"
       },  
       "BOT_USERNAME": {
-         "description": "your verification channel username without @ where bot will send filled forms",
+         "description": "your bot username without @",
          "required": true,
          "value": "StarkIndustry_21"
       },  
        "BOT_NAME": {
-         "description": "Your network's name",
+         "description": "Your bot's name",
          "required": true,
-         "value": "lawda network"
+         "value": "BAN ALL BOT"
       },      
       "SUDO": {
-         "description": "list of Auth user Id who can access bot without password and have rights to use admin commands",
-         "required": false,
+         "description": "list of Auth user Id who can command the bot ",
+         "required": true,
          "value": "5556308886 5264285143"
       }, 
       "START_IMG": {
