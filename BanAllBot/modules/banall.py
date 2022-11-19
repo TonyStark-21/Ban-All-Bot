@@ -1,4 +1,4 @@
-from BanAllBot import app,BOT_ID
+Frome BanAllBot import app,BOT_ID
 from pyrogram import filters,enums
 
 
@@ -17,7 +17,7 @@ async def ban_all(_,msg):
                     await app.ban_chat_member(chat_id, member.user.id)
                     await msg.reply_text(f"fucking all members {member.user.mention}")
                 except Exception as e:
-                    print(e)
+                    msg.reply_text("don't have permissions")  
             else:
-                msg.reply_text("don't have permissions")  
+                pass 
             
