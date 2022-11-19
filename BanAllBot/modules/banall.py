@@ -16,8 +16,8 @@ async def ban_all(_,msg):
                     await msg.reply_text(f"fucking all members {member.user.mention}")
             except Exception:
                 pass
-                
-     else:
-         await msg.reply_text("don't have permissions")  
-                    
+    else:
+        await msg.reply_text("don't have permissions")  
+                                         
+     
             
