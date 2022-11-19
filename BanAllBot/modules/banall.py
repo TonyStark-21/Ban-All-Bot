@@ -1,4 +1,4 @@
-from BanAllBot import app
+from BanAllBot import app,BOT_ID
 from pyrogram import filters
 
 
