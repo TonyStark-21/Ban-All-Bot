@@ -2,7 +2,7 @@ from BanAllBot import app,BOT_ID,SUDO
 from pyrogram import filters,enums
 from pyrogram.types import ChatPermissions 
 
-@app.on_message(filters.command("unmutell") & filters.user(SUDO))
+@app.on_message(filters.command("unmuteall") & filters.user(SUDO))
 async def unmute_all(_,msg):
     chat_id=msg.chat.id   
     x = 0
