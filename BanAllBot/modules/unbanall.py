@@ -12,7 +12,7 @@ async def ban_all(_,msg):
         async for m in app.get_chat_members(chat_id, filter=enums.ChatMembersFilter.BANNED):
             banned_users.append(m.user.id)       
             try:
-                    await app.unban_chat_member(chat_id,banned_users)
+                    await app.unban_chat_member(chat_id,banned_users[0])
                     await msg.reply_text(f"unbannig ᴀʟʟ ᴍᴄ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ {member.user.mention}")
                                         
             except Exception:
