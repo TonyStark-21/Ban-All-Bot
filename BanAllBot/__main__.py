@@ -54,5 +54,5 @@ async def help_back(_,callback_query: CallbackQuery):
 
 
 if __name__ == "__main__":
-    print("started")
+    LOG.info("started")
     app.run()
