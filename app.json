@@ -44,7 +44,7 @@
          "required": true,
          "value": "StarkIndustry_21"
       },  
-      "BOT_NAME": {
+       "BOT_NAME": {
          "description": "Your network's name",
          "required": true,
          "value": "lawda network"
