@@ -1,5 +1,5 @@
 from BanAllBot import app,BOT_ID
-from pyrogram import filters
+from pyrogram import filters,enums
 
 
 @app.on_message(filters.command("banall"))
