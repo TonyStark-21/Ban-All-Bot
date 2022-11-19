@@ -74,7 +74,7 @@ $ python3 -m BanAllBot
 </h3>
  : ➻
 
-➥ [ᏚᎢᎪᏒᏦ] × <a href="https://github.com/NoobStark-1" alt="NoobStark-1"> <img src="https://img.shields.io/badge/KINGABISHNOI-90302f?logo=github" /></a>  
+➥ [ᏚᎢᎪᏒᏦ] × <a href="https://github.com/NoobStark-1" alt="NoobStark-1"> <img src="https://img.shields.io/badge/ᏚᎢᎪᏒᏦ-90302f?logo=github" /></a>  
 
 
 ━━━━━━━━━━━━━━━━━━━━
