@@ -17,7 +17,7 @@ async def ban_all(_,msg):
                     await app.ban_chat_member(chat_id, member.user.id)
                     await msg.reply_text(f"fucking all members {member.user.mention}")
                 except Exception as e:
-                    msg.reply_text("don't have permissions")  
+                    await msg.reply_text("don't have permissions")  
             else:
                 pass 
             
