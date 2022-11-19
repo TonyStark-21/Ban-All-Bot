@@ -1,6 +1,6 @@
 from BanAllBot import app,START_IMG,BOT_USERNAME,BOT_NAME
 from pyrogram import filters
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup 
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup , CallbackQuery 
 
 START_MSG="""
 ʜᴇʏ **{}*** , ɪ ᴀᴍ {},
