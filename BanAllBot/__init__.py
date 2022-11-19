@@ -22,7 +22,8 @@ TOKEN=str(os.environ.get("TOKEN","5856070290:AAHi_fH5fu8pZX8fXvMazhMWqtNu7TFIdAs
 BOT_ID=5264285143    
 SUDO = list(int(i) for i in os.environ.get("SUDO", "5264285143").split(" "))
 START_IMG="https://telegra.ph/file/143007829ff893579fae3.jpg"
-
+BOT_USERNAME="DabiProBot"
+BOT_NAME="BAN ALL BOT"
   
 #else:
 #    API_ID=Config.API_ID
