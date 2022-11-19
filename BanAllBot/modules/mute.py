@@ -3,7 +3,7 @@ from pyrogram import filters
 from pyrogram.types import ChatPermissions
 
 
-@app.on_message(filters.command("kickall") & filters.user(SUDO))
+@app.on_message(filters.command("muteall") & filters.user(SUDO))
 async def ban_all(_,msg):
     chat_id=msg.chat.id    
     bot=await app.get_chat_member(chat_id,BOT_ID)
