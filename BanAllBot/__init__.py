@@ -21,7 +21,7 @@ API_ID=int(os.environ.get("API_ID","16191628"))
 API_HASH=str(os.environ.get("API_HASH","7d5acccaf1df4f5b7a690b203fd1953e"))
 TOKEN=str(os.environ.get("TOKEN","5856070290:AAHi_fH5fu8pZX8fXvMazhMWqtNu7TFIdAs"))
 BOT_ID=5264285143    
-
+SUDO=5264285143
   
 #else:
 #    API_ID=Config.API_ID
