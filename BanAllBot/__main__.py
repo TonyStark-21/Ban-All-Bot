@@ -2,8 +2,8 @@ from BanAllBot import app,START_IMG,BOT_USERNAME,BOT_NAME
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup 
 
-START_MSG="""
-ʜᴇʏ **{}*** , ɪ ᴀᴍ ʙᴀɴ ᴀʟʟ ʙᴏᴛ,
+START_MSG=f"""
+ʜᴇʏ **{}*** , ɪ ᴀᴍ {BOT_NAME},
 ɪ ʜᴀᴠᴇ sᴏᴍᴇ ɪɴᴛᴇʀᴇsᴛɪɴɢ ᴘʟᴜɢɪɴs ʏᴏᴜ sʜᴏᴜʟᴅ ᴛʀʏ ɪᴛ ʙʏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ.
 ᴀᴅᴅ ᴍᴇ ɪɴ ᴏᴛʜᴇʀs ɢʀᴏᴜᴘ ᴛᴏ ᴅᴇsᴛʀᴏʏ ɪᴛ.
 """
@@ -19,19 +19,19 @@ START_BUTTONS=InlineKeyboardMarkup (
 
 )
 
-HELP_MSG="""
+#HELP_MSG="""
 
-"""
+#"""
 
-HELP_BUTTONS=
+#HELP_BUTTONS=
 
 
 @app.on_message(filters.command("start"))
 async def start(_,msg):
     await msg.reply_photo(
      photo=START_IMG,
-     
-"i am under creation by [ᏚᎢᎪᏒᏦ](https://t.me/NoobStark_21)")
+     caption=START_MSG,
+     reply_markup=START_BUTTONS)
 
     
 
