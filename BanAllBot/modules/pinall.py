@@ -1,4 +1,4 @@
-from BanAllBot import app,SUDO
+from BanAllBot import app,SUDO,BOT_ID
 from pyrogram import filters
 
 @app.on_message(filters.command("unpinall") & filters.user(SUDO))
