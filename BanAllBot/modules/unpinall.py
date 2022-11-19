@@ -9,8 +9,8 @@ async def unpin_all(_,msg):
     if bot_permission:
         try:
             await app.unpin_all_chat_messages(chat_id)
-            await msg.reply_text("unpinned all")
+            await msg.reply_text("ᴜɴᴘɪɴɴᴇᴅ ᴀʟʟ ᴍᴇssᴀɢᴇs ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ.")
         except Exception:
             pass
     else:
-        await msg.reply_text("don't have permissions")
+        await msg.reply_text("ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴs")
