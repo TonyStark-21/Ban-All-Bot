@@ -7,7 +7,7 @@ async def unban_all(_,msg):
     chat_id=msg.chat.id   
     x = 0
     bot=await app.get_chat_member(chat_id,BOT_ID)
-    bot_permission=bot.privileges.can_restrict_members==True 
+    bot_permission=bot.privileges.can_restrict_members=True 
     if bot_permission:
         banned_users = []
         async for m in app.get_chat_members(chat_id, filter=enums.ChatMembersFilter.BANNED):
