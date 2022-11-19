@@ -23,7 +23,7 @@ if ENV:
     START_IMG=str(os.environ.get("START_IMG",""))
     BOT_ID=int(os.environ.get("BOT_ID",""))
     BOT_USERNAME=str(os.environ.get("BOT_USERNAME",""))
-    BOT_NAME=str(os.environ.get("BOT_NAME","")
+    BOT_NAME=str(os.environ.get("BOT_NAME",""))
 
 else:
     API_ID=Config.API_ID
