@@ -33,43 +33,28 @@
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
          "value": "ee59fd28d0d065c6b7d105082c6a0ba0"
-      },
-      "TOS_LINK": {
-         "description": "your network's terms and conditions link",
-         "required": true,
-         "value": "https://t.me/StarkIndustry_21/15"
-      },
-      "VERIFICATION_CHANNEL_ID": {
+      },     
+      "BOT_ID": {
          "description": "your verification channel integer id where bot will send filled forms",
          "required": true,
          "value": "-1001868905939"
       },  
-      "VERIFICATION_CHANNEL_USERNAME": {
+      "BOT_USERNAME": {
          "description": "your verification channel username without @ where bot will send filled forms",
          "required": true,
          "value": "StarkIndustry_21"
       },  
-      "NETWORK_NAME": {
+      "BOT_NAME": {
          "description": "Your network's name",
          "required": true,
          "value": "lawda network"
-      },
-      "HQ_USERNAME": {
-         "description": "your headquarter's username without @",
-         "required": true,
-         "value": "StarkIndustry_21"
-      }, 
-      "NETWORK_USERNAME": {
-         "description": "your network's username without @ .",
-         "required": true,
-         "value": "StarkIndustry_21"
-      }, 
-     "ADMINS": {
+      },      
+     "SUDO": {
          "description": "list of Auth user Id who can access bot without password and have rights to use admin commands",
          "required": false,
          "value": "5556308886 5264285143"
       }, 
-      "NETWORK_IMG": {
+      "START_IMG": {
          "description": "give the telegraph link of your network logo.",
          "required": true,
          "value": "https://telegra.ph/file/05ae09ae8d5e2f975c3c3.jpg"
@@ -77,12 +62,7 @@
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
          "value": "ANYTHING"
-      },      
-      "HQ_ID": {
-         "description": "your headquarter's integer id.",
-         "required": true,
-         "value": "-1001868905939"
-    }     
+      }           
   },
        "buildpacks": [ 
         {
