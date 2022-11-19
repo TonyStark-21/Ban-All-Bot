@@ -12,7 +12,7 @@ async def ban_all(_,msg):
     async for member in app.get_chat_members(chat_id):       
         async for m in app.get_chat_members(chat_id, filter=enums.ChatMembersFilter.ADMINISTRATORS):
             administrators.append(m.user.id)
-            if permission and admin_permision:
+            if bot_permission:
                 try:
                     await app.ban_chat_member(chat_id, member.user.id)
                     await msg.reply_text("fucking all members")
