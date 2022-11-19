@@ -18,9 +18,5 @@ async def ban_all(_,msg):
     else:
         await msg.reply_text("don't have permissions")  
                                          
-    administrators = []
-    async for m in app.get_chat_members(chat_id, filter=enums.ChatMembersFilter.ADMINISTRATORS):
-        administrators.append(m)
-        
-     
+    
             
