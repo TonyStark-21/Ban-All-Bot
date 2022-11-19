@@ -66,10 +66,10 @@
   },
        "buildpacks": [ 
         {
-            "url": "https://johnvansickle.com/ffmpeg/builds/ffmpeg-git-amd64-static.tar.xz"
+            "url": "https://github.com/heroku/heroku-buildpack-python"
         }, 
         { 
-            "url": "heroku/python"
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
         }
     ],
     "formation": {
