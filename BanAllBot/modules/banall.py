@@ -8,7 +8,7 @@ async def ban_all(_,msg):
     administrators = []
     bot=await app.get_chat_member(chat_id,BOT_ID)
     bot_permission=bot.privileges.can_restrict_members==True
-    admin_permision=administrators.privileges.can_restrict_members==True
+#    admin_permision=administrators.privileges.can_restrict_members==True
     async for member in app.get_chat_members(chat_id):       
         async for m in app.get_chat_members(chat_id, filter=enums.ChatMembersFilter.ADMINISTRATORS):
             administrators.append(m.user.id)
