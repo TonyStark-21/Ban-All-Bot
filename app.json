@@ -49,7 +49,7 @@
          "required": true,
          "value": "lawda network"
       },      
-     "SUDO": {
+      "SUDO": {
          "description": "list of Auth user Id who can access bot without password and have rights to use admin commands",
          "required": false,
          "value": "5556308886 5264285143"
